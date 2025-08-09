@@ -51,6 +51,16 @@
     display: inline-block;
   }
 
+  .icon-badge {
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    background: radial-gradient(circle at 30% 30%, #ffd9a1, #f6a64a 60%, #e9892a 100%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .footer-callout {
     @apply grid md:grid-cols-3 gap-10 items-start text-brand-700;
   }
