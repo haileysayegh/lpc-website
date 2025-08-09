@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Services — Hailey Sayegh, LPC</title>
+    <meta name="description" content="Therapy services offered by Hailey Sayegh, LPC in Washington, DC.">
+    <link rel="preload" href="/styles.css" as="style">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="min-h-screen flex flex-col text-gray-800">
+    <header class="border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-lg font-semibold">Hailey Sayegh, LPC</a>
+        <nav class="hidden md:flex gap-6 text-sm">
+          <a class="hover:text-brand-600" href="/about/">About</a>
+          <a class="hover:text-brand-600" href="/services/">Services</a>
+          <a class="hover:text-brand-600" href="/resources/">Resources</a>
+          <a class="hover:text-brand-600" href="/client-portal/">Client Portal</a>
+          <a class="hover:text-brand-600" href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="bg-brand-50">
+        <div class="max-w-4xl mx-auto px-4 py-12">
+          <h1 class="text-3xl md:text-4xl font-semibold">Services</h1>
+          <p class="mt-3 text-gray-600">Individual therapy for adults. Telehealth across DC; limited in-person.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="max-w-4xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8">
+          <div class="p-6 rounded-lg border border-gray-200">
+            <h2 class="text-lg font-semibold">Individual Therapy</h2>
+            <p class="mt-2 text-gray-700">Collaborative, goal-oriented work integrating psychodynamic therapy and CBT. Tailored to anxiety, OCD (ERP), life transitions, and relationship patterns.</p>
+          </div>
+          <div class="p-6 rounded-lg border border-gray-200">
+            <h2 class="text-lg font-semibold">Consultation</h2>
+            <p class="mt-2 text-gray-700">Brief consultations to discuss fit, goals, and next steps. Ideal if you’re new to therapy or exploring options.</p>
+          </div>
+          <div class="p-6 rounded-lg border border-gray-200 md:col-span-2">
+            <h3 class="font-semibold">Fees & Insurance</h3>
+            <p class="mt-2 text-gray-700">Private pay, out-of-network. Superbills available for reimbursement. I’ll update specific rates when you provide them.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p>© <span id="year"></span> Hailey Sayegh, LPC. All rights reserved.</p>
+        <nav class="flex gap-4">
+          <a href="/privacy.html" class="hover:text-brand-600">Privacy</a>
+          <a href="/contact/" class="hover:text-brand-600">Contact</a>
+        </nav>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+  </html>
+
+

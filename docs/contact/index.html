@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact — Hailey Sayegh, LPC</title>
+    <meta name="description" content="Contact Hailey Sayegh, LPC for therapy services in Washington, DC.">
+    <link rel="preload" href="/styles.css" as="style">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="min-h-screen flex flex-col text-gray-800">
+    <header class="border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-lg font-semibold">Hailey Sayegh, LPC</a>
+        <nav class="hidden md:flex gap-6 text-sm">
+          <a class="hover:text-brand-600" href="/about/">About</a>
+          <a class="hover:text-brand-600" href="/services/">Services</a>
+          <a class="hover:text-brand-600" href="/resources/">Resources</a>
+          <a class="hover:text-brand-600" href="/client-portal/">Client Portal</a>
+          <a class="hover:text-brand-600" href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="bg-brand-50">
+        <div class="max-w-4xl mx-auto px-4 py-12">
+          <h1 class="text-3xl md:text-4xl font-semibold">Get in Touch</h1>
+          <p class="mt-3 text-gray-600">Reach out to schedule a consultation or ask a question.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="max-w-4xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-10">
+          <form class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium" for="name">Name</label>
+              <input id="name" name="name" type="text" class="mt-1 w-full rounded-md border-gray-300 focus:ring-brand-600 focus:border-brand-600" placeholder="Your name">
+            </div>
+            <div>
+              <label class="block text-sm font-medium" for="email">Email</label>
+              <input id="email" name="email" type="email" class="mt-1 w-full rounded-md border-gray-300 focus:ring-brand-600 focus:border-brand-600" placeholder="you@example.com">
+            </div>
+            <div>
+              <label class="block text-sm font-medium" for="message">Message</label>
+              <textarea id="message" name="message" rows="5" class="mt-1 w-full rounded-md border-gray-300 focus:ring-brand-600 focus:border-brand-600" placeholder="How can I help?"></textarea>
+            </div>
+            <button type="button" class="inline-flex items-center justify-center rounded-md bg-brand-600 text-white px-5 py-3 text-sm font-medium hover:bg-brand-700">Send (placeholder)</button>
+            <p class="text-xs text-gray-600">This form is a visual placeholder. I’ll connect it to your preferred email or portal upon request.</p>
+          </form>
+          <div class="space-y-4 text-gray-700">
+            <div>
+              <h2 class="font-semibold">Email</h2>
+              <p class="mt-1">Add your preferred contact email here.</p>
+            </div>
+            <div>
+              <h2 class="font-semibold">Location</h2>
+              <p class="mt-1">Washington, DC • Telehealth across DC</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p>© <span id="year"></span> Hailey Sayegh, LPC. All rights reserved.</p>
+        <nav class="flex gap-4">
+          <a href="/privacy.html" class="hover:text-brand-600">Privacy</a>
+          <a href="/contact/" class="hover:text-brand-600">Contact</a>
+        </nav>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+  </html>
+
+

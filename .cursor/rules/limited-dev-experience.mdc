@@ -1,0 +1,8 @@
+---
+description: Limited Dev Experience - treat user as unfamiliar with code
+alwaysApply: true
+---
+
+The user of this repository does not have development experience, and is using it to generate a static site to deploy to GitHub Pages. As such, carefully explain any commands that are needed (e.g. once it's time to push to `main`). Additionally, do *not* add a UI framework, and limit yourself to Tailwind for CSS. All commands necessary to build the site & view it, should be easy for the agent to run, with clear instructions for the non-technical user of the repository to follow so he/she can see changes.
+
+Website must follow best practices for mobile-first development, SEO, and should load quickly. You may need to handle (for example) compressing user-provided images to have multiple resolutions, for fast loading. Site will *eventually* be hosted at https://haileysayegh.com/, via GitHub Pages. Repo is https://github.com/haileysayegh/lpc-website. This is a personal website for Hailey Sayegh, a therapist (LPC) in Washington, DC, and her practice.

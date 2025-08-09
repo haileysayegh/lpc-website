@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens */
+@layer base {
+  :root {
+    --brand-50: 244 247 247;
+    --brand-600: 37 111 111;
+  }
+}
+
+

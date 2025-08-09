@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Client Portal — Hailey Sayegh, LPC</title>
+    <meta name="description" content="Secure client portal for scheduling and documents.">
+    <link rel="preload" href="/styles.css" as="style">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="min-h-screen flex flex-col text-gray-800">
+    <header class="border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-lg font-semibold">Hailey Sayegh, LPC</a>
+        <nav class="hidden md:flex gap-6 text-sm">
+          <a class="hover:text-brand-600" href="/about/">About</a>
+          <a class="hover:text-brand-600" href="/services/">Services</a>
+          <a class="hover:text-brand-600" href="/resources/">Resources</a>
+          <a class="hover:text-brand-600" href="/client-portal/">Client Portal</a>
+          <a class="hover:text-brand-600" href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="bg-brand-50">
+        <div class="max-w-4xl mx-auto px-4 py-12">
+          <h1 class="text-3xl md:text-4xl font-semibold">Client Portal</h1>
+          <p class="mt-3 text-gray-600">Log in to schedule, complete forms, and access documents.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="max-w-4xl mx-auto px-4 py-12 space-y-4">
+          <p class="text-gray-700">I’ll add your portal link here (e.g., SimplePractice, Alma, Headway). For now, this button is a placeholder.</p>
+          <a href="#" class="inline-flex items-center justify-center rounded-md bg-brand-600 text-white px-5 py-3 text-sm font-medium hover:bg-brand-700 w-fit">Open Client Portal</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p>© <span id="year"></span> Hailey Sayegh, LPC. All rights reserved.</p>
+        <nav class="flex gap-4">
+          <a href="/privacy.html" class="hover:text-brand-600">Privacy</a>
+          <a href="/contact/" class="hover:text-brand-600">Contact</a>
+        </nav>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+  </html>
+
+

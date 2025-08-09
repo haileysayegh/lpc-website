@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About — Hailey Sayegh, LPC</title>
+    <meta name="description" content="About Hailey Sayegh, Licensed Professional Counselor in Washington, DC.">
+    <link rel="preload" href="/styles.css" as="style">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body class="min-h-screen flex flex-col text-gray-800">
+    <header class="border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+        <a href="/" class="text-lg font-semibold">Hailey Sayegh, LPC</a>
+        <nav class="hidden md:flex gap-6 text-sm">
+          <a class="hover:text-brand-600" href="/about/">About</a>
+          <a class="hover:text-brand-600" href="/services/">Services</a>
+          <a class="hover:text-brand-600" href="/resources/">Resources</a>
+          <a class="hover:text-brand-600" href="/client-portal/">Client Portal</a>
+          <a class="hover:text-brand-600" href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="flex-1">
+      <section class="bg-brand-50">
+        <div class="max-w-4xl mx-auto px-4 py-12">
+          <h1 class="text-3xl md:text-4xl font-semibold">About Me</h1>
+          <p class="mt-3 text-gray-600">Warm, collaborative, and evidence-based care.</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="max-w-4xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <div class="aspect-[3/4] rounded-lg bg-gray-100"></div>
+          </div>
+          <div class="md:col-span-2 space-y-4 leading-relaxed text-gray-700">
+            <p>Hello, I’m Hailey Sayegh, a Licensed Professional Counselor based in Washington, DC. I work with adults seeking practical skills and deeper understanding to navigate anxiety, OCD, life transitions, self-esteem, and relationship patterns.</p>
+            <p>My style is warm, straightforward, and collaborative. I integrate psychodynamic therapy (to understand what’s underneath) with Cognitive Behavioral Therapy (to develop tools you can use day-to-day). For OCD and social anxiety, I incorporate Exposure and Response Prevention (ERP).</p>
+            <p>Therapy with me is an active process. We’ll focus on what matters most to you, set clear goals, and check in about what’s working so we can adjust as needed.</p>
+            <div class="p-4 rounded-md bg-brand-50 border border-gray-200">
+              <p class="text-sm text-gray-700">Bio note: I’ll refine this section with your exact training details once you share the link you mentioned.</p>
+            </div>
+            <div class="pt-6 flex gap-4 text-sm">
+              <a class="text-brand-700 underline underline-offset-4" href="/about/faqs.html">FAQs</a>
+              <a class="text-brand-700 underline underline-offset-4" href="/about/approaches.html">Therapy Approaches</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-gray-200">
+      <div class="max-w-6xl mx-auto px-4 py-8 text-sm text-gray-600 flex flex-col md:flex-row items-center justify-between gap-4">
+        <p>© <span id="year"></span> Hailey Sayegh, LPC. All rights reserved.</p>
+        <nav class="flex gap-4">
+          <a href="/privacy.html" class="hover:text-brand-600">Privacy</a>
+          <a href="/contact/" class="hover:text-brand-600">Contact</a>
+        </nav>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+  </body>
+  </html>
+
+
