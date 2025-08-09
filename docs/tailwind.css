@@ -7,10 +7,11 @@
 /* Design tokens */
 @layer base {
   :root {
-    --brand-50: 244 247 247;
-    --brand-600: 37 111 111;
-    --brand-700: 31 93 93;
-    --ink: 31 41 55;
+    --brand-50: 250 246 239;   /* cream */
+    --brand-600: 46 94 78;     /* dark green */
+    --brand-700: 35 76 62;     /* darker green */
+    --accent-500: 233 137 42;  /* orange */
+    --ink: 26 36 33;           /* near-black green */
   }
 
   html { scroll-behavior: smooth; }
@@ -29,7 +30,7 @@
 /* Presentation helpers */
 @layer components {
   .aqua-paper {
-    background: radial-gradient(1200px 600px at 10% 0%, #e8f3f3 0%, #d9eeee 30%, #cfe7e7 48%, #c4e1e1 70%, #b7d9d9 100%);
+    background: radial-gradient(1200px 600px at 10% 0%, #f7f3ea 0%, #f2ecdf 30%, #ede4d1 60%, #e6dac0 100%);
   }
 
   .section-eyebrow {
