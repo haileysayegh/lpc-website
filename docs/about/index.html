@@ -8,7 +8,7 @@
     <link rel="preload" href="/styles.css" as="style">
     <link rel="stylesheet" href="/styles.css">
   </head>
-  <body class="min-h-screen flex flex-col text-gray-800">
+  <body class="min-h-screen flex flex-col text-gray-800 aqua-paper">
     <header class="border-b border-gray-200">
       <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" class="text-lg font-semibold">Hailey Sayegh, LPC</a>
@@ -23,28 +23,110 @@
     </header>
 
     <main class="flex-1">
-      <section class="bg-brand-50">
-        <div class="max-w-4xl mx-auto px-4 py-12">
-          <h1 class="text-3xl md:text-4xl font-semibold">About Me</h1>
-          <p class="mt-3 text-gray-600">Warm, collaborative, and evidence-based care.</p>
+      <section>
+        <div class="max-w-4xl mx-auto px-4 py-16 text-center">
+          <p class="section-eyebrow">About</p>
+          <h1 class="section-title">Warm, evidence-based therapy with depth and care</h1>
+          <p class="mt-4 muted">I help adults navigate anxiety, OCD, life transitions, and relationship patterns with practical tools and deeper understanding.</p>
         </div>
       </section>
 
       <section>
-        <div class="max-w-4xl mx-auto px-4 py-12 grid md:grid-cols-3 gap-10">
+        <div class="max-w-5xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-10">
           <div class="md:col-span-1">
-            <div class="aspect-[3/4] rounded-lg bg-gray-100"></div>
+            <div class="aspect-[3/4] rounded-lg panel"></div>
           </div>
           <div class="md:col-span-2 space-y-4 leading-relaxed text-gray-700">
             <p>Hello, I’m Hailey Sayegh, a Licensed Professional Counselor based in Washington, DC. I work with adults seeking practical skills and deeper understanding to navigate anxiety, OCD, life transitions, self-esteem, and relationship patterns.</p>
             <p>My style is warm, straightforward, and collaborative. I integrate psychodynamic therapy (to understand what’s underneath) with Cognitive Behavioral Therapy (to develop tools you can use day-to-day). For OCD and social anxiety, I incorporate Exposure and Response Prevention (ERP).</p>
             <p>Therapy with me is an active process. We’ll focus on what matters most to you, set clear goals, and check in about what’s working so we can adjust as needed.</p>
-            <div class="p-4 rounded-md bg-brand-50 border border-gray-200">
+            <div class="p-4 rounded-md bg-white/60 border border-gray-200">
               <p class="text-sm text-gray-700">Bio note: I’ll refine this section with your exact training details once you share the link you mentioned.</p>
             </div>
             <div class="pt-6 flex gap-4 text-sm">
               <a class="text-brand-700 underline underline-offset-4" href="/about/faqs.html">FAQs</a>
               <a class="text-brand-700 underline underline-offset-4" href="/about/approaches.html">Therapy Approaches</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Three aspects of my work -->
+      <section>
+        <div class="max-w-5xl mx-auto px-4 py-16">
+          <div class="text-center mb-10">
+            <p class="section-eyebrow">Three aspects of my work</p>
+          </div>
+          <div class="grid md:grid-cols-3 gap-12 text-gray-700">
+            <div>
+              <span class="orange-dot"></span>
+              <h3 class="mt-4 caps-title text-2xl">Mindfulness</h3>
+              <p class="mt-2">Through mindfulness, we’ll open to the tender places within with kindness, curiosity, and non-judgment—so you can live with more meaning and freedom.</p>
+            </div>
+            <div>
+              <span class="orange-dot"></span>
+              <h3 class="mt-4 caps-title text-2xl">Psychodynamic</h3>
+              <p class="mt-2">Therapy is a sacred space to explore who you are—bringing to light patterns and dynamics outside of awareness and turning insights into change.</p>
+            </div>
+            <div>
+              <span class="orange-dot"></span>
+              <h3 class="mt-4 caps-title text-2xl">Experiential</h3>
+              <p class="mt-2">We’ll create a trusting space to decipher relationship patterns and practice new ways of relating in real time.</p>
+            </div>
+          </div>
+          <div class="text-center mt-10">
+            <a href="/contact/" class="inline-flex items-center justify-center rounded-md bg-brand-600 text-white px-5 py-3 text-sm font-medium hover:bg-brand-700">Work with me</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Guiding principles -->
+      <section>
+        <div class="max-w-5xl mx-auto px-4 py-16">
+          <div class="text-center mb-10">
+            <p class="section-eyebrow">My guiding principles</p>
+          </div>
+          <div class="grid md:grid-cols-3 gap-12 text-gray-700">
+            <div>
+              <span class="orange-dot"></span>
+              <h3 class="mt-4 caps-title text-2xl">Root Work</h3>
+              <p class="mt-2">We’ll name the systems we’re embedded in and explore intersecting identities, histories, and the stories we carry—so healing can take root.</p>
+            </div>
+            <div>
+              <span class="orange-dot"></span>
+              <h3 class="mt-4 caps-title text-2xl">Deshame</h3>
+              <p class="mt-2">Together we’ll identify false narratives of “not good enough,” and come to know the truth of our worthiness.</p>
+            </div>
+            <div>
+              <span class="orange-dot"></span>
+              <h3 class="mt-4 caps-title text-2xl">Empower</h3>
+              <p class="mt-2">We’ll honor the value in natural ways of being—deeply feeling, attuned, and creative—and cultivate gentle strength and community.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer callout -->
+      <section class="py-16">
+        <div class="max-w-5xl mx-auto px-4 footer-callout">
+          <div class="text-center">
+            <p class="caps-title text-xl">Explore</p>
+            <div class="mt-3 space-y-1">
+              <a class="underline underline-offset-4 text-brand-700" href="/services/">Individual Therapy</a>
+              <div class="text-gray-500 text-sm">Approaches & FAQs</div>
+            </div>
+          </div>
+          <div class="text-center">
+            <p class="caps-title text-xl">Hailey Sayegh, LPC</p>
+            <p class="mt-2">Washington, DC</p>
+            <a class="underline underline-offset-4 text-brand-700" href="/contact/">Contact</a>
+          </div>
+          <div class="text-center">
+            <p class="caps-title text-xl">About</p>
+            <div class="mt-3 space-y-1">
+              <a class="underline underline-offset-4 text-brand-700" href="/about/">About Me</a>
+              <a class="underline underline-offset-4 text-brand-700" href="/about/approaches.html">Therapy Approaches</a>
+              <a class="underline underline-offset-4 text-brand-700" href="/about/faqs.html">FAQs</a>
             </div>
           </div>
         </div>
