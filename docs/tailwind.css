@@ -8,10 +8,10 @@
 @layer base {
   :root {
     --brand-50: 250 246 239;   /* cream */
-    --brand-600: 46 94 78;     /* dark green */
-    --brand-700: 35 76 62;     /* darker green */
-    --accent-500: 233 137 42;  /* orange */
-    --ink: 26 36 33;           /* near-black green */
+    --brand-600: 26 50 18;     /* forest green */
+    --brand-700: 21 42 15;     /* darker forest */
+    --accent-500: 0 0 0;       /* black */
+    --ink: 0 0 0;              /* black */
   }
 
   html { scroll-behavior: smooth; }
@@ -55,7 +55,7 @@
     width: 48px;
     height: 48px;
     border-radius: 9999px;
-    background: radial-gradient(circle at 30% 30%, #ffd9a1, #f6a64a 60%, #e9892a 100%);
+    background: radial-gradient(circle at 30% 30%, #2D501F, #1F3A15 60%, #1A3212 100%);
     display: inline-flex;
     align-items: center;
     justify-content: center;
