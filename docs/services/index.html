@@ -8,7 +8,7 @@
     <link rel="preload" href="/styles.css" as="style">
     <link rel="stylesheet" href="/styles.css">
   </head>
-  <body class="min-h-screen flex flex-col text-gray-800">
+  <body class="min-h-screen flex flex-col text-gray-800 aqua-paper">
     <header class="border-b border-gray-200">
       <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
         <a href="/" class="text-lg font-semibold">Hailey Sayegh, LPC</a>
@@ -23,26 +23,32 @@
     </header>
 
     <main class="flex-1">
-      <section class="bg-brand-50">
-        <div class="max-w-4xl mx-auto px-4 py-12">
-          <h1 class="text-3xl md:text-4xl font-semibold">Services</h1>
-          <p class="mt-3 text-gray-600">Individual therapy for adults. Telehealth across DC; limited in-person.</p>
+      <section>
+        <div class="max-w-4xl mx-auto px-4 py-16 text-center">
+          <p class="section-eyebrow">Services</p>
+          <h1 class="section-title">Individual therapy for adults</h1>
+          <p class="mt-4 muted">Telehealth across DC; limited in-person availability.</p>
         </div>
       </section>
 
       <section>
-        <div class="max-w-4xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8">
-          <div class="p-6 rounded-lg border border-gray-200">
-            <h2 class="text-lg font-semibold">Individual Therapy</h2>
-            <p class="mt-2 text-gray-700">Collaborative, goal-oriented work integrating psychodynamic therapy and CBT. Tailored to anxiety, OCD (ERP), life transitions, and relationship patterns.</p>
+        <div class="max-w-5xl mx-auto px-4 py-10 grid md:grid-cols-3 gap-10">
+          <div class="md:col-span-1">
+            <img src="/therapy-room.jpg" alt="Warm and inviting therapy room with comfortable seating and natural light" class="aspect-[4/3] rounded-lg object-cover w-full">
           </div>
-          <div class="p-6 rounded-lg border border-gray-200">
-            <h2 class="text-lg font-semibold">Consultation</h2>
-            <p class="mt-2 text-gray-700">Brief consultations to discuss fit, goals, and next steps. Ideal if you’re new to therapy or exploring your options.</p>
-          </div>
-          <div class="p-6 rounded-lg border border-gray-200 md:col-span-2">
-            <h3 class="font-semibold">Fees & Insurance</h3>
-            <p class="mt-2 text-gray-700">Private pay, out-of-network. Superbills available for reimbursement.</p>
+          <div class="md:col-span-2 space-y-6">
+            <div class="p-6 rounded-lg border border-gray-200 bg-white/60">
+              <h2 class="text-xl font-semibold text-brand-700">Individual Therapy</h2>
+              <p class="mt-2 text-gray-700">Collaborative, goal-oriented work integrating psychodynamic therapy and CBT. Tailored to anxiety, OCD (ERP), life transitions, and relationship patterns.</p>
+            </div>
+            <div class="p-6 rounded-lg border border-gray-200 bg-white/60">
+              <h2 class="text-xl font-semibold text-brand-700">Consultation</h2>
+              <p class="mt-2 text-gray-700">Brief consultations to discuss fit, goals, and next steps. Ideal if you're new to therapy or exploring your options.</p>
+            </div>
+            <div class="p-6 rounded-lg border border-gray-200 bg-white/60">
+              <h3 class="font-semibold text-brand-700">Fees & Insurance</h3>
+              <p class="mt-2 text-gray-700">Private pay, out-of-network. Superbills available for reimbursement. I'll update specific rates when you provide them.</p>
+            </div>
           </div>
         </div>
       </section>
